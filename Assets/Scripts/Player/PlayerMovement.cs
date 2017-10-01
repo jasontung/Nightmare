@@ -47,7 +47,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Animating(float h, float v)
     {
-        bool walking = Mathf.Max(h, v) > 0;
+        bool walking = h != 0 || v != 0;
         anim.SetBool("IsWalking", walking);
     }
 }
