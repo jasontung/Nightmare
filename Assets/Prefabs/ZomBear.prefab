@@ -58,7 +58,6 @@ GameObject:
   - component: {fileID: 135055993481333020}
   - component: {fileID: 195841690291979762}
   - component: {fileID: 82564968869499222}
-  - component: {fileID: 114832131779172464}
   - component: {fileID: 114504190153639852}
   - component: {fileID: 114962146426313442}
   - component: {fileID: 114452994580870512}
@@ -358,17 +357,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeBetweenAttacks: 0.5
   attackDamage: 15
---- !u!114 &114832131779172464
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1498039700098656}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f58c1d9ce56e1749830b8aebe8ba3bf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114962146426313442
 MonoBehaviour:
   m_ObjectHideFlags: 1
